@@ -14,7 +14,7 @@ function addElement() {
     newDiv.appendChild(newContent)
     
     var mainSection = document.getElementById("main")
-    var currentDiv = document.getElementById("start")
-    mainSection.insertBefore(newDiv, currentDiv)
+    var startDiv = document.getElementById("start")
+    mainSection.insertBefore(newDiv, startDiv)
 
 }
